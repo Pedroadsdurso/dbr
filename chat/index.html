@@ -549,7 +549,7 @@
       return;
     }
 
-    addImage('../assets/image1.png');
+    addImage('..chat/images/image1.png');
     await botSay('Olá {NOME_COMPLETO}, esse é um canal oficial de atendimento do <strong>Desenrola Brasil</strong> e os seus dados estão seguros conosco. 🔒');
     await botSay('Aguarde em alguns instantes, um de nossos atendentes entrará na conversa..');
     addVideoAutoplay('https://streamable.com/l/l999ty/mp4.mp4');
@@ -599,7 +599,7 @@
     await botSay('<strong>Login efetuado com sucesso!</strong>');
     await botSay('<strong>{NOME_COMPLETO}</strong><br>Seja bem vindo(a) a sua conta Gov.br');
     await botSay('Negocie dívidas com as seguintes empresas:');
-    addImage('images/image2.png');
+    addImage('chat/images/image2.png');
 
     await addButtons(['CONTINUAR'], false, true, true);
     await addAudioWithButton('https://minio-production-f599.up.railway.app:443/typebot/public/workspaces/cmr435msl00001sohmylfudb5/typebots/cmr436w8500021sohj1taawlx/blocks/w6v4sils320vkdcn128egfbx?v=1785688592499', 'SIM! QUERO NEGOCIAR');
@@ -620,7 +620,7 @@
     ]);
 
     await botSay('Segundo nossos registros, seu SCORE é considerado muito baixo <strong>(alto risco para crédito):</strong>');
-    addImage('../assets/score.jpg');
+    addImage('..chat/images/score.jpg');
     await botSay('Você deseja verificar se existe algum acordo com desconto disponível para você?');
     await addButtons(['BUSCAR ACORDO'], false, true, true);
 
